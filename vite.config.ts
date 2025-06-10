@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/cini-habesha-connect/", // Set base for GitHub Pages deployment
+  base: "/", // Set base to root for custom domain
   server: {
     host: "::",
     port: 8080,
